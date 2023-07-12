@@ -1,0 +1,142 @@
+/* Navbar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 50px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #aa0404;
+  }
+
+nav ul img{
+    float: left;
+    text-align: center;
+    margin: 7;
+    padding: 4;
+}
+
+
+/*Autres*/
+
+.home{
+    text-align: center;
+}
+
+.tab1{
+    font-size: 20px;
+    text-align: center;
+  }
+
+.tab2{
+    font-size: 40px;
+    text-align: center;
+  }
+  
+
+  Form table{
+    font-size: 30px;
+  }
+
+/*Bouton Accueil*/
+
+.button {
+    background-color: #a93131;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  .button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+/*Bouton actions*/
+
+.button1 {
+    background-color: #49a14c;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  .button1:hover {
+    background-color: #2f7509;
+    color: white;
+  }
+
+  .button2 {
+    background-color: #c64040;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  .button2:hover {
+    background-color: #7b0000;
+    color: white;
+  }
+
+  .button3 {
+    background-color: #49a14c;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 5px 70px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  .button3:hover {
+    background-color: #2f7509;
+    color: white;
+  }
+
+  
+
+
+  
